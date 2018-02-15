@@ -38,4 +38,11 @@ public class AgendaTelefonica {
         return numero;
     }
     
+    /**
+     * Muestra por terminal de texto todos los nombres de los contactos.
+     */
+    public void printAllKeys() {
+        System.out.println(contactos.keySet());
+    }
+    
 }
